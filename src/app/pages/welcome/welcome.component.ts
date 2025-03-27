@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-welcome',
+  templateUrl: './welcome.component.html',
+  styleUrl: './welcome.component.scss'
+})
+export class WelcomeComponent {
+  constructor() {}
+  loadingState = {
+    isLoading: true,
+    data: [1,2,3]
+  };
+}
